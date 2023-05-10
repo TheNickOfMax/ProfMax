@@ -5,17 +5,11 @@
 <head>
 	<title>Домашняя</title>
 </head>
-<div class="container">
-	<div class="col" />
+<div class="col-container">
+	<div />
 	<Welcome />
-	<div class="col" />
+	<div />
 </div>
 
 <style lang="scss">
-	.container {
-		display: grid;
-		grid-template-columns: 1fr 4fr 1fr;
-		grid-gap: 20px;
-		padding: 20px;
-	}
 </style>
