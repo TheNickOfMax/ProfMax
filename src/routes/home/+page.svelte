@@ -5,9 +5,9 @@
 <head>
 	<title>Домашняя</title>
 </head>
-<body class="cols">
-	<div class="col1" />
-	<div class="col2">
+<div class="container">
+	<div class="col" />
+	<div class="col">
 		<h1>Профориентация для школьников</h1>
 		<section>
 			<h2>Добро пожаловать на наш сайт!</h2>
@@ -40,27 +40,18 @@
 			</p>
 		</section>
 	</div>
-	<div class="col3" />
-</body>
+	<div class="col" />
+</div>
 
 <!--TODO:
     * Make 3-col layout default for all pages
 	*THE FUCKING FIXED POSITIONING OF NAVBAR BREAKS THE FUCKING GRID I HATE FRONTEND SO FUCKING MUCH
 -->
 <style lang="scss">
-	.cols {
+	.container {
 		display: grid;
 		grid-template-columns: 1fr 4fr 1fr;
 		grid-gap: 20px;
 		padding: 20px;
-		.col1 {
-			grid-column: 1;
-		}
-		.col2 {
-			grid-column: 2;
-		}
-		.col3 {
-			grid-column: 3;
-		}
 	}
 </style>
