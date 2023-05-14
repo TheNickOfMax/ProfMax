@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { space } from 'svelte/internal';
-	let navPages: string[] = ['About', 'Home', 'Tests'];
 	let pgs = [
 		['about', 'О нас'],
 		['home', 'Домашняя'],
