@@ -24,6 +24,7 @@
 			padding-left: 10px;
 			width: fit-content;
 			transition: padding-left 0.5s ease;
+			white-space: nowrap;
 		}
 		:hover {
 			padding-left: 50%;
