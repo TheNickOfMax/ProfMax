@@ -1,4 +1,5 @@
 <script lang="ts">
+	import SidePanel from '../../components/SidePanel.svelte';
 	import Welcome from '../../components/Welcome.svelte';
 </script>
 
@@ -6,7 +7,7 @@
 	<title>Домашняя</title>
 </head>
 <div class="col-container">
-	<div />
+	<SidePanel />
 	<Welcome />
 	<div />
 </div>
