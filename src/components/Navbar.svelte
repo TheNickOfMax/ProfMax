@@ -1,12 +1,17 @@
 <script lang="ts">
 	import { space } from 'svelte/internal';
 	let navPages: string[] = ['About', 'Home', 'Tests'];
+	let pgs = [
+		['about', 'О нас'],
+		['home', 'Домашняя'],
+		['tests', 'Тесты']
+	];
 </script>
 
 <nav>
-	{#each navPages as pg}
+	{#each pgs as pg}
 		<span>
-			<a href={pg.toLowerCase()}>{pg}</a>
+			<a href={pg[0]}>{pg[1]}</a>
 		</span>
 	{/each}
 </nav>
@@ -32,6 +37,7 @@
 				font-size: larger;
 				opacity: 100%;
 				display: inline-block;
+				white-space: nowrap;
 				transition: padding-top 0.5s ease;
 			}
 
