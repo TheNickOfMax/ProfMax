@@ -18,8 +18,8 @@
 			margin-bottom: 5px;
 			height: fit-content;
 			font-size: larger;
-			padding-top: 5%;
-			padding-bottom: 5%;
+			padding-top: 10px;
+			padding-bottom: 10px;
 			padding-right: 20px;
 			padding-left: 10px;
 			width: fit-content;
