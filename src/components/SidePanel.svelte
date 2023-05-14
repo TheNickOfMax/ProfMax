@@ -2,10 +2,10 @@
 </script>
 
 <div class="panel">
-	<button>Stuff1</button>
-	<button>Stuff2</button>
-	<button>Stuff3</button>
-	<button>Stuff4</button>
+	<button>Статья 1</button>
+	<button>Статья 2</button>
+	<button>Статья 3</button>
+	<button>Статья 4</button>
 </div>
 
 <style lang="scss">
