@@ -2,9 +2,13 @@ FROM node:latest
 
 WORKDIR /app
 
-COPY ./build ./
+COPY ./ ./
 
-COPY ./package.json ./
+RUN npm i
+
+RUN npm run build
+
+WORKDIR /app/build
 
 EXPOSE 3000
 
