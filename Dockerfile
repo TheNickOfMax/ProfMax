@@ -1,15 +1,13 @@
-FROM node:latest
+FROM node:lts
 
 WORKDIR /app
 
-COPY ./ ./
+COPY ./ /app
 
 RUN npm i
 
 RUN npm run build
 
-WORKDIR /app/build
+EXPOSE 6969
 
-EXPOSE 3000
-
-CMD ["node", "."]
+CMD ["node", "-r", "dotenv/config", "build"]
