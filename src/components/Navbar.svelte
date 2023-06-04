@@ -19,14 +19,14 @@
 	nav {
 		display: flex;
 		position: fixed;
-		top: -1%;
-		right: 50%;
+		top: -5px;
 		left: 50%;
+		transform: translateX(-50%);
 		text-align: center;
-		margin-top: 1%;
 
 		span {
 			margin-left: 3px;
+
 			a {
 				border-radius: 6%;
 				color: #fdfdfd;
@@ -34,14 +34,14 @@
 				padding: 8px;
 				text-decoration: none;
 				font-size: larger;
-				opacity: 100%;
+				opacity: 1;
 				display: inline-block;
 				white-space: nowrap;
 				transition: padding-top 0.5s ease;
-			}
 
-			:hover {
-				padding-top: 40px;
+				&:hover {
+					padding-top: 40px;
+				}
 			}
 		}
 	}
