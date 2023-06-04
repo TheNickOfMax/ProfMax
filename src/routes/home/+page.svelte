@@ -6,10 +6,8 @@
 <head>
 	<title>Домашняя</title>
 </head>
-<div class="col-container">
-	<SidePanel />
+<div>
 	<Welcome />
-	<div />
 </div>
 
 <style lang="scss">
