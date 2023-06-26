@@ -1,11 +1,12 @@
 <script lang="ts">
+	import { space } from 'svelte/internal';
+	export let pgs: string[][];
 </script>
 
 <div class="panel">
-	<a href="">Статья 1</a>
-	<a href="">Статья 1</a>
-	<a href="">Статья 1</a>
-	<a href="">Статья 1</a>
+	{#each pgs as pg}
+		<a href="/{pg[0]}">{pg[1]}</a>
+	{/each}
 </div>
 
 <style lang="scss">

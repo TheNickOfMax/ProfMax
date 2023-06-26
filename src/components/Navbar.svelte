@@ -3,14 +3,15 @@
 	let pgs = [
 		['about', 'О нас'],
 		['home', 'Домашняя'],
-		['QnA', 'Задай вопрос']
+		['QnA', 'Задай вопрос'],
+		['resources', 'Ресурсы']
 	];
 </script>
 
 <nav>
 	{#each pgs as pg}
 		<span>
-			<a href={pg[0]}>{pg[1]}</a>
+			<a href="/{pg[0]}">{pg[1]}</a>
 		</span>
 	{/each}
 </nav>
