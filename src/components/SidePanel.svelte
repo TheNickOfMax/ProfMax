@@ -2,16 +2,17 @@
 </script>
 
 <div class="panel">
-	<button>Статья 1</button>
-	<button>Статья 2</button>
-	<button>Статья 3</button>
-	<button>Статья 4</button>
+	<a href="">Статья 1</a>
+	<a href="">Статья 1</a>
+	<a href="">Статья 1</a>
+	<a href="">Статья 1</a>
 </div>
 
 <style lang="scss">
 	.panel {
-		button {
+		a {
 			background-color: #4d9785;
+			text-decoration: none;
 			border-style: none;
 			border-top-right-radius: 50px;
 			border-bottom-right-radius: 50px;
