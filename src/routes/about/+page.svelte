@@ -1,5 +1,6 @@
 <script lang="ts"></script>
 
+let modules = import.meta.glob('./*/**.svelte');
 <head>
 	<title>О нас</title>
 </head>

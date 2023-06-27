@@ -1,13 +1,8 @@
 <script lang="ts">
 	import { space } from 'svelte/internal';
-	export let pgs: string[][];
 </script>
 
-<div class="panel">
-	{#each pgs as pg}
-		<a href="/{pg[0]}">{pg[1]}</a>
-	{/each}
-</div>
+<div class="panel" />
 
 <style lang="scss">
 	.panel {
