@@ -1,6 +1,10 @@
-<script lang="ts"></script>
+<script lang="ts">
+	import { loadPaths } from '../../utils';
+	let modules = import.meta.glob('./*/**.svelte');
+	let paths = loadPaths(modules);
+	console.log(paths);
+</script>
 
-let modules = import.meta.glob('./*/**.svelte');
 <head>
 	<title>О нас</title>
 </head>
