@@ -1,8 +1,13 @@
 <script lang="ts">
 	import { space } from 'svelte/internal';
+	export let panelPaths: string[];
 </script>
 
-<div class="panel" />
+<div class="panel">
+	{#each panelPaths as path}
+		<a href={path}>{path}</a>
+	{/each}
+</div>
 
 <style lang="scss">
 	.panel {
