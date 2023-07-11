@@ -1,10 +1,28 @@
 <script lang="ts">
-	import { space } from 'svelte/internal';
-	export let panelPaths: string[];
-</script>
+	import { page } from '$app/stores';
+	
+	import { onMount, space } from 'svelte/internal';
+	const imp:any = import.meta.glob(`../routes/*/*/**.svelte`)
+	let curUrl:string ='';
+	let pathsToLoad:string[]=[];
 
-<div class="panel">
-	{#each panelPaths as path}
+	$: {
+		curUrl = $page.url.toString().split('/')[3];
+		console.log(curUrl)
+		for (let path in imp) {
+			console.log('for')
+			if (path.includes(curUrl))
+			{
+				pathsToLoad.push(path.replace('/+page.svelte','').replace('../routes',''));
+			}
+    	}
+	}
+
+	
+	</script>
+
+<div class="panel" >
+	{#each pathsToLoad as path}
 		<a href={path}>{path}</a>
 	{/each}
 </div>
@@ -13,6 +31,7 @@
 	.panel {
 		a {
 			background-color: #4d9785;
+			color: rgb(255, 255, 255);
 			text-decoration: none;
 			border-style: none;
 			border-top-right-radius: 50px;
