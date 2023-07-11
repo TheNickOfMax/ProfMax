@@ -1,6 +1,6 @@
 # ProfMax
 
-A job-recommendation website,for school students, powered by [`svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte). It is currently a school project on an early stage of development.
+A job-recommendation website,for school students, powered by [`svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte). A school project on an early stage of development.
 
 ## Contributing
 
@@ -13,14 +13,4 @@ npm run dev
 npm run dev -- --open
 ```
 
-After that you can branch -> commit -> push -> pull request. Any contribution is appreciated and there are not many rules to how to contribute. Just be reasonable.
-
-## Building
-
-To create a production version of JobTrail:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
+After that you can branch -> commit -> push -> pull request. Any contribution is appreciated.
