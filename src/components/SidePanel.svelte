@@ -6,7 +6,6 @@
   
 	$: {
 	  const currentUrl = $page.url.toString().split('/')[3];
-	  console.log(currentUrl);
 	  pathsToLoad = Object.keys(importAll)
 		.map((path) => path.replace('/+page.svelte', '').replace('../routes', ''))
 		.filter((path) => path.includes(currentUrl));
