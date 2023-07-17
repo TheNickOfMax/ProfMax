@@ -3,8 +3,8 @@
 
 <div>
 	<p>
-		If you found any bugs feel free to leave an issue over on
-		<a href="https://github.com/TheNickOfMax/ProfMax"> github </a> :D
+		Если вы нашли баги, или хотите что-то предложить, то отправляйтесь на
+		<a href="https://github.com/TheNickOfMax/ProfMax"> гитхаб </a> :D
 	</p>
 </div>
 

@@ -14,7 +14,7 @@
 
 <div class="panel">
 	{#each pathsToLoad as path}
-		<a href={path}>{path}</a>
+		<a href={path}>{path.replace('/' + $page.url.toString().split('/')[3] + '/', '')}</a>
 	{/each}
 </div>
 
