@@ -6,9 +6,5 @@
 	<title>Тесты</title>
 </head>
 <div>
-	<p>
-		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum libero accusantium repellat cum
-		blanditiis temporibus voluptatem numquam nobis. Nulla sed aut minus nostrum esse sint recusandae
-		illo aliquam delectus labore?
-	</p>
+	<h1>Задай вопрос</h1>
 </div>

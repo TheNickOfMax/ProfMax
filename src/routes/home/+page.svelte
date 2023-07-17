@@ -5,7 +5,9 @@
 <head>
 	<title>Домашняя</title>
 </head>
-<div />
+<div>
+	<h1>Домашняя страница</h1>
+</div>
 
 <style lang="scss">
 </style>
