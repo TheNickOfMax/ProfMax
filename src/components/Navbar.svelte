@@ -1,17 +1,16 @@
 <script lang="ts">
-	import { space } from 'svelte/internal';
 	let pgs = [
-		['about', 'О нас'],
-		['home', 'Домашняя'],
-		['QnA', 'Задай вопрос'],
-		['resources', 'Ресурсы']
+		{ url: 'about', name: 'О нас' },
+		{ url: 'home', name: 'Домашняя' },
+		{ url: 'QnA', name: 'Задай вопрос' },
+		{ url: 'resources', name: 'Ресурсы' }
 	];
 </script>
 
 <nav>
 	{#each pgs as pg}
 		<span>
-			<a href="/{pg[0]}">{pg[1]}</a>
+			<a href="/{pg.url}">{pg.name}</a>
 		</span>
 	{/each}
 </nav>
