@@ -1,20 +1,18 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-  
+
 	const importAll = import.meta.glob(`../routes/*/*/**.svelte`);
 	let pathsToLoad: string[] = [];
-  
-	$: {
-	  const currentUrl = $page.url.toString().split('/')[3];
-	  pathsToLoad = Object.keys(importAll)
-		.map((path) => path.replace('/+page.svelte', '').replace('../routes', ''))
-		.filter((path) => path.includes(currentUrl));
-	}
-  </script>
-  
-  
 
-<div class="panel" >
+	$: {
+		const currentUrl = $page.url.toString().split('/')[3];
+		pathsToLoad = Object.keys(importAll)
+			.map((path) => path.replace('/+page.svelte', '').replace('../routes', ''))
+			.filter((path) => path.includes(currentUrl));
+	}
+</script>
+
+<div class="panel">
 	{#each pathsToLoad as path}
 		<a href={path}>{path}</a>
 	{/each}
@@ -46,6 +44,8 @@
 		display: flex;
 		flex-direction: column;
 		margin-top: 30px;
+		margin-right: 50px;
+		transform: translateX(-27px);
+		left: 0;
 	}
 </style>
-
