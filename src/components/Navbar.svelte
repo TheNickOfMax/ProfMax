@@ -7,6 +7,7 @@
 	];
 </script>
 
+<h1>PROFMAX</h1>
 <nav>
 	{#each pgs as pg}
 		<span>
@@ -16,6 +17,9 @@
 </nav>
 
 <style lang="scss">
+	h1 {
+		margin: 10px;
+	}
 	nav {
 		display: flex;
 		position: fixed;

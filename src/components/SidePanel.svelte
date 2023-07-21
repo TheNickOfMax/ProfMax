@@ -43,7 +43,6 @@
 		}
 		display: flex;
 		flex-direction: column;
-		margin-top: 30px;
 		margin-right: 50px;
 		transform: translateX(-27px);
 		left: 0;
