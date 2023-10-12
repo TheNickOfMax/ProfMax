@@ -18,9 +18,15 @@
 
 <style lang="scss">
 	h1 {
-		margin: 10px;
+		margin: 0px;
+		padding-bottom: 0px;
+		@media only screen and (max-width: 845px) {
+        	display: none;
+		}
+
 	}
 	nav {
+		user-select: none;
 		display: flex;
 		position: fixed;
 		top: -5px;
@@ -32,7 +38,7 @@
 			margin-left: 3px;
 
 			a {
-				border-radius: 6%;
+				border-radius: 6px;
 				color: #fdfdfd;
 				background-color: #4d9785;
 				padding: 8px;
@@ -46,6 +52,10 @@
 				&:hover {
 					padding-top: 40px;
 				}
+			}
+			@media only screen and (max-width: 845px) {
+			
+			font-size: 13px;
 			}
 		}
 	}
