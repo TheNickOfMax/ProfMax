@@ -21,6 +21,7 @@
 		margin: 10px;
 	}
 	nav {
+		user-select: none;
 		display: flex;
 		position: fixed;
 		top: -5px;
@@ -32,7 +33,7 @@
 			margin-left: 3px;
 
 			a {
-				border-radius: 6%;
+				border-radius: 6px;
 				color: #fdfdfd;
 				background-color: #4d9785;
 				padding: 8px;
