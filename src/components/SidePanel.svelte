@@ -27,7 +27,6 @@
 			border-top-right-radius: 50px;
 			color: rgb(255, 255, 255);
 			font-size: larger;
-			height: fit-content;
 			margin-bottom: 5px;
 			padding-bottom: 10px;
 			padding-left: 10px;
@@ -37,14 +36,19 @@
 			transition: padding-left 0.5s ease;
 			white-space: nowrap;
 			width: fit-content;
-		}
-		:hover {
-			padding-left: 50%;
+			&:hover {
+				padding-left: 50%;
+			}
 		}
 		display: flex;
 		flex-direction: column;
 		margin-right: 50px;
 		transform: translateX(-27px);
-		left: 0;
+		margin-top: -30px;
+
+		@media only screen and (max-width: 845px) {
+			margin-right: 0px;
+			font-size: 10px;
+		}
 	}
 </style>

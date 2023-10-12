@@ -18,7 +18,12 @@
 
 <style lang="scss">
 	h1 {
-		margin: 10px;
+		margin: 0px;
+		padding-bottom: 0px;
+		@media only screen and (max-width: 845px) {
+        	display: none;
+		}
+
 	}
 	nav {
 		user-select: none;
@@ -47,6 +52,10 @@
 				&:hover {
 					padding-top: 40px;
 				}
+			}
+			@media only screen and (max-width: 845px) {
+			
+			font-size: 13px;
 			}
 		}
 	}
