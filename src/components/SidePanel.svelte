@@ -52,6 +52,10 @@
 		@media only screen and (max-width: 845px) {
 			margin-right: 0px;
 			font-size: 10px;
+			margin-top: -10px;
+			position: fixed;
+			bottom: 50px;
+			
 		}
 	}
 </style>

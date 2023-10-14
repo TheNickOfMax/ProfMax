@@ -32,7 +32,7 @@
 		user-select: none;
 		display: flex;
 		position: fixed;
-		top: -5px;
+		top: -4px;
 		left: 50%;
 		transform: translateX(-50%);
 		text-align: center;
@@ -57,8 +57,7 @@
 				}
 			}
 			@media only screen and (max-width: 845px) {
-			
-			font-size: 13px;
+				font-size: 11px;
 			}
 		}
 	}
