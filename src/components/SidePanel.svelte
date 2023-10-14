@@ -3,7 +3,7 @@
 	import { pathsToHrefs } from '../utils';
 
 	function labelFromHref (lnk:string):string {
-		return lnk.replace('/' + $page.url.toString().split('/')[3] + '/', '')
+		return lnk.replace('/' + $page.url.toString().split('/')[3] + '/', '').replace("+", " ");
 	}
 
 	const rawPaths = import.meta.glob(`../routes/*/*/**.svelte`);
