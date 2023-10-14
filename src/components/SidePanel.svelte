@@ -1,20 +1,23 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { pathsToHrefs } from '../utils';
 
-	const importAll = import.meta.glob(`../routes/*/*/**.svelte`);
-	let pathsToLoad: string[] = [];
+	function labelFromHref (lnk:string):string {
+		return lnk.replace('/' + $page.url.toString().split('/')[3] + '/', '').replace("+", " ");
+	}
+
+	const rawPaths = import.meta.glob(`../routes/*/*/**.svelte`);
+	let hrefs: string[] = [];
 
 	$: {
-		const currentUrl = $page.url.toString().split('/')[3];
-		pathsToLoad = Object.keys(importAll)
-			.map((path) => path.replace('/+page.svelte', '').replace('../routes', ''))
-			.filter((path) => path.includes(currentUrl));
+		let current = $page.url.toString()
+		hrefs = pathsToHrefs(rawPaths,current)
 	}
 </script>
 
 <div class="panel">
-	{#each pathsToLoad as path}
-		<a href={path}>{path.replace('/' + $page.url.toString().split('/')[3] + '/', '')}</a>
+	{#each hrefs as link}
+		<a href={link}> {labelFromHref(link)} </a>
 	{/each}
 </div>
 
@@ -49,6 +52,10 @@
 		@media only screen and (max-width: 845px) {
 			margin-right: 0px;
 			font-size: 10px;
+			margin-top: -10px;
+			position: fixed;
+			bottom: 50px;
+			
 		}
 	}
 </style>
