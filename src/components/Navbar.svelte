@@ -7,7 +7,7 @@
 	];
 </script>
 
-<h1>PROFMAX</h1>
+<h1><a href="/home/">PROFMAX</a></h1>
 <nav>
 	{#each pgs as pg}
 		<span>
@@ -18,6 +18,9 @@
 
 <style lang="scss">
 	h1 {
+		a {
+			text-decoration: none;
+		}
 		margin: 0px;
 		padding-bottom: 0px;
 		@media only screen and (max-width: 845px) {
