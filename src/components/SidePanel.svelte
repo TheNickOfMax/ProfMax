@@ -48,6 +48,7 @@
 		margin-right: 50px;
 		transform: translateX(-27px);
 		margin-top: -30px;
+		margin-right: 10px;
 
 		@media only screen and (max-width: 845px) {
 			margin-right: 0px;
