@@ -16,9 +16,6 @@
 		bottom: 0;
 		left: 0;
 		font-size: small;
-		@media only screen and (max-width: 845px) {
-			font-size: 10px;
-		}
 		height: 40px;
 		p {
 			margin-left: 20px;
@@ -27,5 +24,8 @@
 	}
 	a {
 		color: rgb(196, 196, 196);
+	}
+	@media only screen and (max-width: 845px) {
+		div {font-size: 10px;}
 	}
 </style>
