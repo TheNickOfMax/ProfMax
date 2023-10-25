@@ -1,9 +1,9 @@
 <script lang="ts">
 	let pgs = [
+		{ url: 'home', name: 'Главная' },
 		{ url: 'about', name: 'Про нас' },
-		{ url: 'home', name: 'Домашняя' },
-		{ url: 'QnA', name: 'Задай вопрос' },
-		{ url: 'resources', name: 'Ресурсы' }
+		{ url: 'qna', name: 'Вопросы' },
+		{ url: 'resources', name: 'Источники' }
 	];
 </script>
 
@@ -23,10 +23,6 @@
 		}
 		margin: 0px;
 		padding-bottom: 0px;
-		@media only screen and (max-width: 845px) {
-        	display: none;
-		}
-
 	}
 	nav {
 		user-select: none;
@@ -56,9 +52,15 @@
 					padding-top: 40px;
 				}
 			}
-			@media only screen and (max-width: 845px) {
-				font-size: 11px;
-			}
+		}
+	}
+
+	@media only screen and (max-width: 845px) {
+		h1 {
+			display: none;
+		}
+		nav span {
+			font-size: 11px;
 		}
 	}
 </style>

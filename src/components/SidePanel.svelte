@@ -3,7 +3,7 @@
 	import { pathsToHrefs } from '../utils';
 
 	function labelFromHref (lnk:string):string {
-		return lnk.replace('/' + $page.url.toString().split('/')[3] + '/', '').replace("+", " ");
+		return lnk.replace('/' + $page.url.toString().split('/')[3] + '/', '').replaceAll("+", " ");
 	}
 
 	const rawPaths = import.meta.glob(`../routes/*/*/**.svelte`);
@@ -48,6 +48,7 @@
 		margin-right: 50px;
 		transform: translateX(-27px);
 		margin-top: -30px;
+		margin-right: 10px;
 
 		@media only screen and (max-width: 845px) {
 			margin-right: 0px;
