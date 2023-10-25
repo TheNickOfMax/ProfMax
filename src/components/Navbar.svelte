@@ -1,7 +1,8 @@
 <script lang="ts">
 	let pgs = [
-		{ url: 'about', name: 'Про нас' },
 		{ url: 'home', name: 'Главная' },
+		{ url: 'about', name: 'Про нас' },
+		{ url: 'qna', name: 'Вопросы' },
 		{ url: 'resources', name: 'Источники' }
 	];
 </script>
