@@ -1,7 +1,7 @@
 <script lang="ts">
 	let pgs = [
 		{ url: 'about', name: 'Про нас' },
-		{ url: 'home', name: 'Домашняя' },
+		{ url: 'home', name: 'Главная' },
 		{ url: 'resources', name: 'Источники' }
 	];
 </script>
@@ -16,52 +16,50 @@
 </nav>
 
 <style lang="scss">
-h1 {
-  a {
-    text-decoration: none;
-  }
-  margin: 0px;
-  padding-bottom: 0px;
-}
-nav {
-  user-select: none;
-  display: flex;
-  position: fixed;
-  top: -4px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
+	h1 {
+		a {
+			text-decoration: none;
+		}
+		margin: 0px;
+		padding-bottom: 0px;
+	}
+	nav {
+		user-select: none;
+		display: flex;
+		position: fixed;
+		top: -4px;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
 
-  span {
-    margin-left: 3px;
+		span {
+			margin-left: 3px;
 
-    a {
-      border-radius: 6px;
-      color: #fdfdfd;
-      background-color: #4d9785;
-      padding: 8px;
-      text-decoration: none;
-      font-size: larger;
-      opacity: 1;
-      display: inline-block;
-      white-space: nowrap;
-      transition: padding-top 0.5s ease;
+			a {
+				border-radius: 6px;
+				color: #fdfdfd;
+				background-color: #4d9785;
+				padding: 8px;
+				text-decoration: none;
+				font-size: larger;
+				opacity: 1;
+				display: inline-block;
+				white-space: nowrap;
+				transition: padding-top 0.5s ease;
 
-      &:hover {
-        padding-top: 40px;
-      }
-    }
-  }
-}
+				&:hover {
+					padding-top: 40px;
+				}
+			}
+		}
+	}
 
-@media only screen and (max-width: 845px) {
-  h1 {
-    display: none;
-  }
-  nav span {
-    font-size: 11px;
-  }
-}
-
-
+	@media only screen and (max-width: 845px) {
+		h1 {
+			display: none;
+		}
+		nav span {
+			font-size: 11px;
+		}
+	}
 </style>
