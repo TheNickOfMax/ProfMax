@@ -3,7 +3,7 @@
 
 <div>
 	<p>
-		Если вы нашли баги, или хотите что-то предложить, то <br> отправляйтесь на
+		Если вы нашли баги, или хотите что-то предложить, то <br /> отправляйтесь на
 		<a href="https://github.com/TheNickOfMax/ProfMax"> гитхаб </a> :D
 	</p>
 </div>
@@ -26,6 +26,8 @@
 		color: rgb(196, 196, 196);
 	}
 	@media only screen and (max-width: 845px) {
-		div {font-size: 10px;}
+		div {
+			font-size: 10px;
+		}
 	}
 </style>
