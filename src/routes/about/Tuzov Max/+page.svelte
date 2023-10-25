@@ -1,22 +1,26 @@
 <script>
-	import TextTile from '../../../components/TextTile.svelte';
+	import Tile from '../../../components/Tile.svelte';
 </script>
 
 <div>
-	<h1>Тузов Максим</h1>
-	<p class="sub">Программист, атеист, анархист.</p>
-	<TextTile
-		title="Основные приколы"
-		mainText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptates at accusamus mollitia maiores cumque laudantium eum obcaecati excepturi. Qui in labore praesentium unde sunt quam veniam nam adipisci pariatur."
-	/>
+	<div class="subtitled">
+		<h1>Тузов Максим</h1>
+		<p class="sub">Программист, атеист, анархист, клоун :D.</p>
+	</div>
+	<div class="inside">
+		<Tile
+			title="Я программист"
+			mainText="Являюсь главным программистом проекта. Создал вот этот вот самый сайт. Курсы почти не посещал, всему научился сам."
+		/>
+		<Tile
+			title="Хобби"
+			mainText="Ничем особенным, кроме програмирования на постоянной основе не увлекаюсь.
+			
+			В последнее время делаю 3D штуки в Blender и сейчас прохожу DUSK"
+		/>
+		<Tile
+			title="Что-то еще..."
+			mainText="Сюда надо еще чего-то добавить. Картинки пока не работают. Нужны идеи. "
+		/>
+	</div>
 </div>
-
-<style lang="scss">
-	h1 {
-		font-size: 40px;
-	}
-	.sub {
-		font-size: small;
-		margin-top: -20px;
-	}
-</style>
