@@ -1,12 +1,10 @@
 <script>
+	import SubbedText from '../../../components/SubbedText.svelte';
 	import Tile from '../../../components/Tile.svelte';
 </script>
 
 <div>
-	<div class="subtitled">
-		<h1>Тузов Максим</h1>
-		<p class="sub">Программист, атеист, анархист, клоун :D.</p>
-	</div>
+	<SubbedText mainText="Тузов Максим" sub="Программист, анархист, оптимист :D." />
 	<div class="inside">
 		<Tile
 			title="Я программист"
