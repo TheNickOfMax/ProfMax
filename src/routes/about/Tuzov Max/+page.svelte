@@ -4,7 +4,7 @@
 </script>
 
 <div>
-	<SubbedText mainText="Тузов Максим" sub="Программист, анархист, оптимист :D." />
+	<SubbedText mainText="Тузов Максим" sub="Программист, оптимист :D." />
 	<div class="inside">
 		<Tile
 			title="Я - программист"

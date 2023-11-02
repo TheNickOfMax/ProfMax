@@ -4,7 +4,7 @@
 </script>
 
 <div>
-	<SubbedText mainText="Павел Антипенко" sub="Литейщик, человек электролобзик, или просто Пашка." />
+	<SubbedText mainText="Павел Антипенко" sub="Литейщик, моделист." />
 	<div class="inside">
 		<Tile
 			title="Я - Технолог"
