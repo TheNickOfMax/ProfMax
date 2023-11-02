@@ -1,3 +1,10 @@
+<script>
+	import SubbedText from '../../../components/SubbedText.svelte';
+</script>
+
 <div>
-    <h1>Информация про частые ошибки</h1>
+	<SubbedText
+		mainText="Частые ошибки при выборе профессии"
+		sub="Без ошибок не куда, но часто их можно избежать"
+	/>
 </div>
