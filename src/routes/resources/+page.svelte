@@ -1,6 +1,7 @@
 <script lang="ts">
-	
+	import SubbedText from '../../components/SubbedText.svelte';
 </script>
+
 <div>
-    <h1>Информация про лучшие источники</h1>
+	<SubbedText mainText="Лучшие источники" sub="Куда бежать? Куда деваться?" />
 </div>
