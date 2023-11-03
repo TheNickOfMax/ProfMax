@@ -1,3 +1,7 @@
+<script>
+	import SubbedText from '../../../components/SubbedText.svelte';
+</script>
+
 <div>
-    <h1>Информация про Профессии будущего</h1>
+	<SubbedText mainText="Профессии будущего" sub="А ты актуален?" />
 </div>

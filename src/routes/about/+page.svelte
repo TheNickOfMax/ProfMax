@@ -1,11 +1,12 @@
 <script lang="ts">
+	import SubbedText from '../../components/SubbedText.svelte';
 </script>
 
 <head>
 	<title>О нас</title>
 </head>
 <div>
-	<h1>Про нас</h1>
+	<SubbedText mainText="О нас" sub="Мы кто такие?" />
 	<section>
 		<h2>Мы, учащиеся гимназии №70</h2>
 		<p>
