@@ -6,6 +6,12 @@
 <div>
 	<SubbedText mainText="Тузов Максим" sub="Программист, оптимист :D." />
 	<div class="inside">
+		<img
+			src="/Max.jpg"
+			alt=""
+			height="250px"
+			style="border-radius: 20px; border-style:solid;border-color:aquamarine;"
+		/>
 		<Tile
 			title="Я - программист"
 			mainText="Создал вот этот вот самый сайт. Курсы почти не посещал, всему научился сам."

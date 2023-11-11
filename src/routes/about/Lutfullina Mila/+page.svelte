@@ -6,6 +6,12 @@
 <div>
 	<SubbedText mainText="Лутфуллина Мила" sub="Чай, музыка и никакого насилия." />
 	<div class="inside">
+		<img
+			src="/Mila.jpg"
+			alt=""
+			height="250px"
+			style="border-radius: 20px; border-style:solid;border-color:aquamarine;"
+		/>
 		<Tile title="Я - филолог" mainText="Пишу много, в том числе и о гимназии" />
 		<Tile title="Хобби" mainText="Занимаюсь барабанами, читаю, сплю иногда" />
 		<Tile
