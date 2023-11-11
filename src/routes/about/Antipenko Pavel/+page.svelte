@@ -4,8 +4,16 @@
 </script>
 
 <div>
-	<SubbedText mainText="Павел Антипенко" sub="Литейщик, моделист." />
+	<div class="inrow">
+		<SubbedText mainText="Павел Антипенко" sub="Литейщик, моделист." />
+	</div>
 	<div class="inside">
+		<img
+			src="/Pasha.jpg"
+			alt=""
+			height="250px"
+			style="border-radius: 20px; border-style:solid;border-color:aquamarine;"
+		/>
 		<Tile
 			title="Я - Технолог"
 			mainText="Умею работать в коллективе, не боюсь браться за сложные задачи. 
