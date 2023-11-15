@@ -10,4 +10,4 @@
 	<SidePanel />
 	<slot />
 </div>
-<BottomBar />
+<!-- <BottomBar /> -->

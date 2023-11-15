@@ -2,8 +2,8 @@
 	let pgs = [
 		{ url: 'home', name: 'Главная' },
 		{ url: 'about', name: 'Про нас' },
-		{ url: 'qna', name: 'Вопросы' },
-		{ url: 'resources', name: 'Источники' }
+		{ url: 'qna', name: 'Вопросы' }
+		//{ url: 'resources', name: 'Источники' }
 	];
 </script>
 
