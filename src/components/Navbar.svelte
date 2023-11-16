@@ -1,9 +1,10 @@
 <script lang="ts">
 	let pgs = [
-		{ url: 'home', name: 'Главная' },
+		//{ url: 'home', name: 'Главная' },
 		{ url: 'about', name: 'Про нас' },
-		{ url: 'qna', name: 'Вопросы' }
+		{ url: 'qna', name: 'Вопросы' },
 		//{ url: 'resources', name: 'Источники' }
+		{ url: 'gimn', name: 'Наша Гимназия' }
 	];
 </script>
 
