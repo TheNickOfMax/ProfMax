@@ -3,7 +3,7 @@
 		//{ url: 'home', name: 'Главная' },
 		{ url: 'about', name: 'Про нас' },
 		{ url: 'qna', name: 'Вопросы' },
-		//{ url: 'resources', name: 'Источники' }
+		{ url: 'resources', name: 'Источники' },
 		{ url: 'gimn', name: 'Наша Гимназия' }
 	];
 </script>
