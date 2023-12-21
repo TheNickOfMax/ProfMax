@@ -3,6 +3,9 @@
 	import Tile from '../../components/Tile.svelte';
 </script>
 
+<head>
+	<title>Вопросы</title>
+</head>
 <div>
 	<SubbedText mainText="Часто задаваемые вопросы" sub="То, что на самом деле интересует учеников" />
 	<Tile

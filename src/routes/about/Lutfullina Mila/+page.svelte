@@ -3,6 +3,9 @@
 	import Tile from '../../../components/Tile.svelte';
 </script>
 
+<head>
+	<title>Лутфулина Мила</title>
+</head>
 <div>
 	<SubbedText mainText="Лутфуллина Мила" sub="Чай, музыка и никакого насилия." />
 	<div class="inside">
