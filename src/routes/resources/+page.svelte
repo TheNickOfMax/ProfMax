@@ -3,6 +3,9 @@
 	import Tile from '../../components/Tile.svelte';
 </script>
 
+<head>
+	<title>Источники</title>
+</head>
 <div>
 	<SubbedText mainText="Лучшие источники" sub="Куда бежать? Куда деваться?" />
 	<Tile

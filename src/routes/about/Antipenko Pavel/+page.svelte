@@ -3,6 +3,9 @@
 	import Tile from '../../../components/Tile.svelte';
 </script>
 
+<head>
+	<title>Антипенко Павел</title>
+</head>
 <div>
 	<div class="inrow">
 		<SubbedText mainText="Павел Антипенко" sub="Литейщик, моделист." />
