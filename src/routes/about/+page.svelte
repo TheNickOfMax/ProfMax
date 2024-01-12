@@ -11,7 +11,7 @@
 		<img
 			src="/Max.jpg"
 			alt=""
-			height="115px"
+			height="220px"
 			style="border-radius: 20px; border-style:solid;border-color:aquamarine;"
 		/>
 	</a>
@@ -19,7 +19,7 @@
 		<img
 			src="/Mila.jpg"
 			alt=""
-			height="115px"
+			height="220px"
 			style="border-radius: 20px; border-style:solid;border-color:aquamarine;"
 		/>
 	</a>
@@ -27,7 +27,7 @@
 		<img
 			src="/Pasha.jpg"
 			alt=""
-			height="115px"
+			height="220px"
 			style="border-radius: 20px; border-style:solid;border-color:aquamarine;"
 		/>
 	</a>
