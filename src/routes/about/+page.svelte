@@ -7,6 +7,30 @@
 </head>
 <div>
 	<SubbedText mainText="О нас" sub="Мы кто такие?" />
+	<a href="/about/Tuzov Max">
+		<img
+			src="/Max.jpg"
+			alt=""
+			height="220px"
+			style="border-radius: 20px; border-style:solid;border-color:aquamarine;"
+		/>
+	</a>
+	<a href="/about/Lutfullina Mila">
+		<img
+			src="/Mila.jpg"
+			alt=""
+			height="220px"
+			style="border-radius: 20px; border-style:solid;border-color:aquamarine;"
+		/>
+	</a>
+	<a href="/about/Antipenko Pavel">
+		<img
+			src="/Pasha.jpg"
+			alt=""
+			height="220px"
+			style="border-radius: 20px; border-style:solid;border-color:aquamarine;"
+		/>
+	</a>
 	<section>
 		<h2>Мы, учащиеся гимназии №70</h2>
 		<p>

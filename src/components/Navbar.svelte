@@ -29,7 +29,7 @@
 		user-select: none;
 		display: flex;
 		position: fixed;
-		top: -4px;
+		top: -5px;
 		left: 50%;
 		transform: translateX(-50%);
 		text-align: center;
@@ -41,7 +41,10 @@
 				border-radius: 6px;
 				color: #fdfdfd;
 				background-color: #4d9785;
-				padding: 8px;
+				padding-top: 15px;
+				padding-left: 10px;
+				padding-right: 10px;
+				padding-bottom: 3px;
 				text-decoration: none;
 				font-size: larger;
 				opacity: 1;
