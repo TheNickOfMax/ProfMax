@@ -7,7 +7,7 @@
 	<title>Антипенко Павел</title>
 </head>
 <div>
-	<div class="inrow">
+	<div class="">
 		<SubbedText mainText="Павел Антипенко" sub="Литейщик, моделист." />
 	</div>
 	<div class="inside">
@@ -32,4 +32,7 @@
 			mainText="В рамках проектной деятельности, в связи с семидесятилетним юбилеем гимназии №70, разработал и создал методом художественного литья герб гимназии."
 		/>
 	</div>
+	<a href="mailto:antipenkopavel.prof@mail.ru" style="margin-top: 10px; display:flex"
+		>antipenkopavel.prof@mail.ru</a
+	>
 </div>
