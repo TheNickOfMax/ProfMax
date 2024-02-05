@@ -22,4 +22,7 @@
 			mainText="Меланхоличный холерик, как говорили классики. Люблю людей, но не люблю жару и алгебру. "
 		/>
 	</div>
+	<a href="mailto:lutfullinadjamila.prof@mail.ru" style="margin-top: 10px; display:flex"
+		>lutfullinadjamila.prof@mail.ru</a
+	>
 </div>

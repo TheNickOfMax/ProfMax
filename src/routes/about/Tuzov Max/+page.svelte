@@ -30,4 +30,7 @@
 			mainText="Сюда надо еще чего-то добавить. Картинки пока не работают. Нужны идеи. "
 		/>
 	</div>
+	<a href="mailto:tuzovmaxim.prof@gmail.com" style="margin-top: 10px; display:flex"
+		>tuzovmaxim.prof@gmail.com</a
+	>
 </div>
