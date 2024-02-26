@@ -1,8 +1,7 @@
-<!-- Yandex.Metrika counter -->
-<script>
-	// @ts-nocheck
-	import { browser } from '$app/environment';
-	if (browser) {
+<head>
+	<!-- /Yandex.Metrika counter -->
+	<title>Главная</title>
+	<script type="text/javascript">
 		(function (m, e, t, r, i, k, a) {
 			m[i] =
 				m[i] ||
@@ -27,13 +26,16 @@
 			trackLinks: true,
 			accurateTrackBounce: true
 		});
-	}
-</script>
-
-<!-- /Yandex.Metrika counter -->
-
-<head>
-	<title>Главная</title>
+	</script>
+	<noscript
+		><div>
+			<img
+				src="https://mc.yandex.ru/watch/96579707"
+				style="position:absolute; left:-9999px;"
+				alt=""
+			/>
+		</div></noscript
+	>
 </head>
 
 <div>
@@ -73,14 +75,6 @@
 			</p>
 		</section>
 	</div>
-</div>
-
-<div>
-	<img
-		src="https://mc.yandex.ru/watch/96579707"
-		style="position:absolute; left:-9999px;"
-		alt="aa"
-	/>
 </div>
 
 <style lang="scss">
