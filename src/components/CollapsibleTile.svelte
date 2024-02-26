@@ -9,6 +9,7 @@
 		collapsed = !collapsed;
 	}}
 	on:keypress={() => {}}
+	style="margin-top: 6px;"
 >
 	{#if collapsed}
 		<div class="inrow">
