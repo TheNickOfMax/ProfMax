@@ -10,7 +10,7 @@
 	<div class="">
 		<SubbedText mainText="Павел Антипенко" sub="Литейщик, моделист." />
 	</div>
-	<div class="inside">
+	<div class="inrow">
 		<img
 			src="/Pasha.jpg"
 			alt=""

@@ -8,7 +8,7 @@
 </head>
 <div>
 	<SubbedText mainText="Лутфуллина Мила" sub="Чай, музыка и никакого насилия." />
-	<div class="inside">
+	<div class="inrow">
 		<img
 			src="/Mila.jpg"
 			alt=""

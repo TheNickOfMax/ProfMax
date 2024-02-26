@@ -8,7 +8,7 @@
 </head>
 <div>
 	<SubbedText mainText="Тузов Максим" sub="Программист, оптимист :D." />
-	<div class="inside">
+	<div class="inrow">
 		<img
 			src="/Max.jpg"
 			alt=""
