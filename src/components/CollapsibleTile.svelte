@@ -23,7 +23,7 @@
 			<h3>{title}</h3>
 		</div>
 	{:else}
-		<div class="inrow">
+		<div class="inrow" style="margin-bottom: -20px;">
 			<img
 				src="/arrow-down.png"
 				width="25px"
