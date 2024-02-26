@@ -1,5 +1,4 @@
 <head>
-	<!-- /Yandex.Metrika counter -->
 	<title>Главная</title>
 </head>
 

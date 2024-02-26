@@ -8,7 +8,7 @@
 </head>
 <div>
 	<SubbedText mainText="Тузов Максим" sub="Программист, оптимист :D." />
-	<div class="inside">
+	<div class="inrow">
 		<img
 			src="/Max.jpg"
 			alt=""
@@ -24,10 +24,6 @@
 			mainText="Ничем особенным, кроме програмирования на постоянной основе не увлекаюсь.
 			
 			В последнее время делаю 3D штуки в Blender"
-		/>
-		<Tile
-			title="Что-то еще..."
-			mainText="Сюда надо еще чего-то добавить. Картинки пока не работают. Нужны идеи. "
 		/>
 	</div>
 	<a href="mailto:tuzovmaxim.prof@gmail.com" style="margin-top: 10px; display:flex"
