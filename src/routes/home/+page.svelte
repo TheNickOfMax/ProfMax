@@ -1,3 +1,7 @@
+<script>
+	import Counter from '../../components/Counter.svelte';
+</script>
+
 <head>
 	<title>Главная</title>
 </head>
