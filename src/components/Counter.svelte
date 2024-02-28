@@ -7,7 +7,7 @@
 		alt=""
 		style="width: 40px; height:20px; padding-top:14px; padding-left:5px; padding-right:5px"
 	/>
-	<p>человек!</p>
+	<p>раз!</p>
 </div>
 
 <style lang="scss">
